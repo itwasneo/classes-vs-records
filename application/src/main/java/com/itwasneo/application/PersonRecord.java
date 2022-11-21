@@ -5,7 +5,7 @@ public record PersonRecord(
         int age) {
     public PersonRecord {
         if (age > 20) {
-            throw new ClassCastException();
+            throw new IllegalArgumentException();
         }
     }
 }

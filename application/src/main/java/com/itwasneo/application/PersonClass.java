@@ -13,7 +13,7 @@ public class PersonClass implements Serializable {
 			int age) {
 		this.name = name;
 		if (age > 20) {
-			throw new ClassCastException();
+			throw new IllegalArgumentException();
 		}
 		this.age = age;
 	}
