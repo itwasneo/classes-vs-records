@@ -3,9 +3,7 @@ package com.itwasneo.application;
 import java.io.Serializable;
 
 public class PersonClass implements Serializable {
-
 	public String name;
-
 	public int age;
 
 	public PersonClass(
